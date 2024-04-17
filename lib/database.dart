@@ -1,7 +1,7 @@
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
-import '../notes.dart';
+import 'notes.dart';
 
 class DataManager {
   static Database? _database;
